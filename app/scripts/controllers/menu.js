@@ -11,6 +11,6 @@ angular.module('udaciMealsApp')
   .controller('MenuCtrl', function () {
     this.id = 'yoman';
     this.name = 'xiaofan';
-    this.img = 'yoman.jpg';
+    this.img = 'yeoman.jpg';
     this.rating = 5;
   });
