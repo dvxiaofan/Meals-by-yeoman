@@ -1,0 +1,23 @@
+[
+	{
+		"id": "11",
+		"name": "one",
+		"img": "food01.jpg",
+		"calories": 410,
+		"rating": 3.1
+	},
+	{
+		"id": "22",
+		"name": "two",
+		"img": "food02.jpg",
+		"calories": 210,
+		"rating": 5.5
+	},
+	{
+		"id": "33",
+		"name": "three",
+		"img": "food03.jpg",
+		"calories": 610,
+		"rating": 6.6
+	}
+]
