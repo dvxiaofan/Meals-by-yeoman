@@ -1,9 +1,13 @@
 <div class="row">
-	<div class="items-container">
+	<div class="items-container" ng-repeat="item in menu.items">
 		<div class="col-md-4">
-			<h4>{{menu.name}}</h4>
-			<p>Rating: {{menu.rating}}</p>
-			<p>Image: {{menu.img}}</p>
+			<img ng-src="../images/{{item.img}}" alt="{{item.name}}" class="item_iamge">
+			<h4>{{item.name}}</h4>
+			<p>Rating: {{item.rating}}
+				<button ng-click="menu.increment(item)">+</button>
+				<button ng-click="menu.decrement(item)">-</button>
+				<span ng-if="item.rating > 4.0" ng-class="{highlight: item.rating > 5.0}"> - People Love This Item !</span>
+			</p>
 		</div>
 	</div>
 </div>
